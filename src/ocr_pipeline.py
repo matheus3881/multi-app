@@ -214,7 +214,7 @@ def criar_faiss(chunks: list[Document]):
 def configurar_llm():
     """Configura e retorna a cadeia LangChain com o LLM."""
     
-    model = "gemma3:4b" # gemma3:4b não existe, gemma:2b ou gemma:7b
+    model = "gemma3:4b" 
     llm = ChatOllama(model=model, temperature=0)
     prompt_template = """
         Você é um assistente preciso para extrair informações de documentos.

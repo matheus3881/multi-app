@@ -3,3 +3,11 @@
 *.jpg
 *.pyc
 *.json
+*.tar
+*.log
+
+.env
+.env*
+audios
+csv
+images
