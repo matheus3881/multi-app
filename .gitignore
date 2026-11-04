@@ -1,13 +1,36 @@
+# Ambientes virtuais e IDEs
+.venv/
+venv/
+env/
+.vscode/
+.idea/
+**/__pycache__/
+*.pyc
+
+# Segredos e variáveis de ambiente
+.env
+.env*
+!.env.example
+
+# Logs e arquivos temporários
+*.log
+app_log.log
+
+# Binários executáveis e arquivos pesados
+*.exe
+ffmpeg.exe
+*.tar
+*.tar.gz
+
+# Backups locais (manter apenas na máquina local)
+src/backup/
+backup/
+
+# Mídias e artefatos de dados locais
+audios/
+csv/
+images/
 *.png
 *.pdf
 *.jpg
-*.pyc
 *.json
-*.tar
-*.log
-
-.env
-.env*
-audios
-csv
-images
